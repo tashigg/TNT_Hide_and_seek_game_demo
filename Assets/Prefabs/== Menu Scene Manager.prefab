@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1591346826633485578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1591346826633485581}
+  - component: {fileID: 1591346826633485580}
+  - component: {fileID: 1591346826633485583}
+  m_Layer: 0
+  m_Name: == Menu Scene Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1591346826633485581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591346826633485578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.262474, y: 9.722017, z: 44.19722}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1591346826633485580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591346826633485578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0c4c807fbbf4680a077bd4463853e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profileMenu: {fileID: 0}
+  lobbyMenu: {fileID: 0}
+  SceneGamePlayName: PlayScene
+  _nameTextField: {fileID: 0}
+  statusText: {fileID: 0}
+  signInButton: {fileID: 0}
+  _numberPlayerInRoomTextField: {fileID: 0}
+  _roomCodeToJoinTextField: {fileID: 0}
+  _roomCodeLobbyTextField: {fileID: 0}
+  _lobbyFreeGroup: {fileID: 0}
+  _inLobbyGroup: {fileID: 0}
+  _createLobbyButton: {fileID: 0}
+  _joinLobbyButton: {fileID: 0}
+  _exitLobbyButton: {fileID: 0}
+  _startRoomButton: {fileID: 0}
+  _readyRoomButton: {fileID: 0}
+  _listPlayersContentTransform: {fileID: 0}
+  _playerItemPrefab: {fileID: 3293162784873744200, guid: b2e18d03599844bfa893ccd57e60d3f2,
+    type: 3}
+  listPlayers: []
+  _reloadListLobbiesButton: {fileID: 0}
+  _listLobbiesContentTransform: {fileID: 0}
+  _lobbyItemPrefab: {fileID: 3331297732437355370, guid: 6f6a0beadffe04f48b41505449eeea1e,
+    type: 3}
+  listLobbies: []
+  isLobbyHost: 0
+  currentLobbyId: 
+  currentLobbyCode: 
+  nextHeartbeat: 0
+  nextLobbyRefresh: 0
+  isSetInitPlayerDataObject: 0
+--- !u!114 &1591346826633485583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591346826633485578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
